@@ -1,6 +1,6 @@
 const person={
     name: 'John Doe',
-    age: 30
+    age: 20
 }
 
 module.exports = person;
