@@ -1,2 +1,6 @@
-const person = require('./person');
-console.log(person);
+//because it is a file and not an actual core module
+const Person = require('./person');
+
+const person1 = new Person('John Doe', 30);
+
+person1.greeting();
